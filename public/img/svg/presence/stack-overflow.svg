@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="135px" height="173px" viewBox="0 0 135 173" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>stack</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="so-logo" sketch:type="MSLayerGroup">
+            <g id="stack" sketch:type="MSShapeGroup">
+                <path d="M96.028,111.049 L30.127,95.065 L33.324,81.885 L99.225,97.868 L96.028,111.049" id="Fill-13" fill="#B58F52"></path>
+                <path d="M100.446,95.281 L40.061,64.425 L46.232,52.348 L106.617,83.204 L100.446,95.281" id="Fill-14" fill="#C78431"></path>
+                <path d="M109.747,78.947 L58.68,34.332 L67.602,24.119 L118.67,68.733 L109.747,78.947" id="Fill-15" fill="#E9812C"></path>
+                <path d="M123.796,64.589 L85.715,8.48 L96.937,0.864 L135.018,56.973 L123.796,64.589" id="Fill-16" fill="#E5712A"></path>
+                <path d="M94.973,127.534 L27.262,123.837 L28.001,110.294 L95.712,113.992 L94.973,127.534" id="Fill-17" fill="#9D8469"></path>
+                <path d="M109.012,159.435 L109.012,103.249 L122.562,103.249 L122.572,173 L0,173 L0.003,103.19 L13.565,103.19 L13.565,159.435 L109.012,159.435" id="Fill-19" fill="#797B7B"></path>
+                <path d="M27.074,132.364 L95.346,132.364 L95.346,145.926 L27.074,145.926 L27.074,132.364 Z" id="Fill-21" fill="#797B7B"></path>
+            </g>
+        </g>
+    </g>
+</svg>

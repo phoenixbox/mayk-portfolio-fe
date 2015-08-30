@@ -1,0 +1,50 @@
+.persona {
+  position: relative;
+  float: left;
+}
+.persona .avatar {
+  float: left;
+  width: 150px;
+  height: 130px;
+  @media (max-width: @screen-xs-max) {
+  }
+  @media (min-width: @screen-sm-min) {
+  }
+  @media (min-width: @screen-lg-min) {
+  }
+}
+.persona span.isvg {
+  position: absolute;
+  z-index: @zIndex-2;
+}
+.persona img.github-avatar {
+  position: absolute;
+  width: 127px;
+  height: 127px;
+  border-radius: 64px;
+  margin-left: 12px;
+  margin-top: 1px;
+}
+.persona .details {
+  display: inline-block;
+  margin-top: 13px;
+  margin-left: 10px
+}
+.persona .details .name {
+  font-size: 36px;
+}
+.persona .details .title,
+.persona .details .education {
+  margin-left: 4px;
+}
+.persona .details .title {
+  font-size: 20px;
+  line-height: 20px
+}
+.persona .details .education {
+  font-size: 14px;
+  line-height: 26px;
+}
+.persona .details .degree {
+  margin-left: 5px;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Mayk - Developer Portfolios</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {% if process.env.NODE_ENV === 'production' %}
+      <link rel="stylesheet" href="/css/main.min.css">
+    {% else %}
+      <link rel="stylesheet" href="/css/main.css">
+    {% endif %}
+  </head>
+  <body>
+
+    <!-- Mounting node -->
+    <div id="mayk" class="row-offcanvas row-offcanvas-left"></div>
+
+    {% if process.env.NODE_ENV === 'production' %}
+      <script src="/js/mayk.min.js"></script>
+    {% else %}
+      <script src="/js/mayk.js"></script>
+    {% endif %}
+  </body>
+</html>

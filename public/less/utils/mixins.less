@@ -1,0 +1,24 @@
+.backgroundImage(@src, @size: cover) {
+  background-image: url(@src);
+  background-repeat: no-repeat;
+  background-size: @size;
+}
+.drop-shadow(@x: 0, @y: 1px, @blur: 2px, @spread: 0, @alpha: 0.25) {
+	-webkit-box-shadow:	@x @y @blur @spread rgba(0, 0, 0, @alpha);
+	-moz-box-shadow:	@x @y @blur @spread rgba(0, 0, 0, @alpha);
+	box-shadow:		@x @y @blur @spread rgba(0, 0, 0, @alpha);
+}
+.italicize() {
+  font-style: italic;
+}
+.horiz-hairline() {
+  border-bottom: 1px black solid;
+  transform: scaleY(0.5);
+  -webkit-transform: scaleY(0.5);
+}
+.vert-hairline() {
+  width: 1px;
+  background-color: black;
+  transform: scaleX(0.5);
+  -webkit-transform: scaleX(0.5);
+}

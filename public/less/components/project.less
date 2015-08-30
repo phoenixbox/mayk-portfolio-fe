@@ -1,0 +1,54 @@
+.project {
+  margin-top: 25px;
+}
+/* TODO: Refactor pill component & style to higher level */
+.work-experience .project-pill,
+.project .project-pill {
+  width: auto;
+  display: inline-block;
+  padding: 3px 10px;
+  border: 2px solid;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 500;
+  margin-right: 5px;
+  color: white;
+}
+.work-experience .project-pill.javascript,
+.project .project-pill.javascript {
+  border-color: @mayk-javascript;
+  background-color: @mayk-javascript;
+}
+.work-experience .project-pill.objective-c,
+.project .project-pill.objective-c {
+  border-color: @mayk-objective-c;
+  background-color: @mayk-objective-c;
+}
+.work-experience .project-pill.ruby,
+.project .project-pill.ruby {
+  border-color: @mayk-ruby;
+  background-color: @mayk-ruby;
+}
+.project .project-skills {
+  text-align: right;
+}
+.project .description {
+  margin-top: 10px;
+  font-size: 18px;
+}
+.project .project-link {
+  text-align: right;
+}
+.project .project-role,
+.project .project-link {
+  .italicize();
+  font-size: 14px;
+  font-color: @mayk-grey;
+}
+.project .project-icon span.personal {
+  .italicize();
+  font-size: 14px;
+  color: @mayk-grey;
+  top: 9px;
+  position: relative;
+}
